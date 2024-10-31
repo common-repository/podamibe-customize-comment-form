@@ -1,0 +1,49 @@
+/**
+ * pcc main style file
+ *
+ */
+ 
+ ul.tabs{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	list-style: none;
+ 	background: #9ca1a6;
+ }
+ ul.tabs li{
+ 	background: none;
+ 	color: #fff;
+ 	display: inline-block;
+ 	padding: 10px 15px;
+ 	cursor: pointer;
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ }
+
+ ul.tabs li.current{
+ 	background: #0073aa;
+ 	color: #fff;
+ }
+
+ .tab-content{
+ 	display: none;
+ 	background: #fff;
+ 	padding: 15px;
+ }
+
+ .tab-content.current{
+ 	display: inherit;
+ }
+
+ .pccf-main-wrapper {
+ 	width: 80%;
+ }
+
+ .pccf-main-title{
+ 	margin-top:10px;
+ 	padding: 20px;
+ 	background-color: #0073aa;
+ 	border-top-left-radius: 5px;
+ 	border-top-right-radius: 5px;
+ 	color: #fff;
+ 	font-size: x-large;
+ }
